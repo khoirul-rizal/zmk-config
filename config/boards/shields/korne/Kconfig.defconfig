@@ -1,17 +1,7 @@
-if ZMK_BACKLIGHT
-
-config PWM
-    default y
-
-config LED_PWM
-    default y
-
-endif # ZMK_BACKLIGHT
-
 if SHIELD_CORNE_LEFT
 
 config ZMK_KEYBOARD_NAME
-    default "Corne RP"
+    default "Corne"
 
 config ZMK_SPLIT_ROLE_CENTRAL
     default y
