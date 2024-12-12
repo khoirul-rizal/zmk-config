@@ -10,6 +10,12 @@ endif
 
 if SHIELD_CORNE_LEFT || SHIELD_CORNE_RIGHT
 
+config PWM
+    default y
+
+config LED_PWM
+    default y
+
 config ZMK_SPLIT
     default y
 
