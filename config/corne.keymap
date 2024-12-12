@@ -50,6 +50,16 @@
             bindings = <&bl BL_OFF>;
             key-positions = <25 26>;
         };
+
+        boot {
+            bindings = <&bootloader>;
+            key-positions = <5 4>;
+        };
+
+        sys {
+            bindings = <&sys_reset>;
+            key-positions = <17 16>;
+        };
     };
 
     keymap {
