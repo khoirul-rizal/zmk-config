@@ -60,6 +60,16 @@
             bindings = <&sys_reset>;
             key-positions = <17 16>;
         };
+
+        toggle_power {
+            bindings = <&ext_power EP_TOG>;
+            key-positions = <24 26>;
+        };
+
+        soft {
+            bindings = <&soft_off>;
+            key-positions = <29 28>;
+        };
     };
 
     keymap {
