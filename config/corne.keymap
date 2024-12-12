@@ -70,6 +70,26 @@
             bindings = <&soft_off>;
             key-positions = <29 28>;
         };
+
+        delete_blt {
+            bindings = <&bt BT_CLR_ALL>;
+            key-positions = <11 23 35>;
+        };
+
+        blt_4 {
+            bindings = <&bt BT_SEL 4>;
+            key-positions = <10 11>;
+        };
+
+        ble {
+            bindings = <&out OUT_BLE>;
+            key-positions = <23 22>;
+        };
+
+        usb {
+            bindings = <&out OUT_USB>;
+            key-positions = <22 21>;
+        };
     };
 
     keymap {
