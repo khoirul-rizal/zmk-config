@@ -61,11 +61,6 @@
             key-positions = <17 16>;
         };
 
-        soft {
-            bindings = <&soft_off>;
-            key-positions = <29 28>;
-        };
-
         delete_blt {
             bindings = <&bt BT_CLR_ALL>;
             key-positions = <11 23 35>;
