@@ -31,36 +31,6 @@
             key-positions = <1 2>;
         };
 
-        rgb_on {
-            bindings = <&rgb_ug RGB_ON>;
-            key-positions = <12 13>;
-        };
-
-        rgb_off {
-            bindings = <&rgb_ug RGB_OFF>;
-            key-positions = <13 14>;
-        };
-
-        bl_on {
-            bindings = <&bl BL_ON>;
-            key-positions = <5 6>;
-        };
-
-        bl_off {
-            bindings = <&bl BL_OFF>;
-            key-positions = <17 18>;
-        };
-
-        boot {
-            bindings = <&bootloader>;
-            key-positions = <5 4>;
-        };
-
-        sys {
-            bindings = <&sys_reset>;
-            key-positions = <17 16>;
-        };
-
         delete_blt {
             bindings = <&bt BT_CLR_ALL>;
             key-positions = <11 23 35>;
