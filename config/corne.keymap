@@ -29,11 +29,6 @@
             key-positions = <0 1>;
         };
 
-        eks_off {
-            bindings = <&ext_power EP_OFF>;
-            key-positions = <1 2>;
-        };
-
         delete_blt {
             bindings = <&bt BT_CLR_ALL>;
             key-positions = <11 23 35>;
