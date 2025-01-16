@@ -112,7 +112,7 @@
 
             bindings = <
 &trans  &kp N1      &kp NUMBER_2  &kp N3        &kp N4        &kp N5          &kp N6           &kp N7           &kp N8      &kp N9      &kp N0          &kp BSPC
-&trans  &bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1  &out OUT_BLE  &out OUT_USB    &kp LEFT         &kp DOWN         &kp UP      &kp RIGHT   &bl BL_ON       &bl BL_OFF
+&trans  &bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1  &out OUT_BLE  &out OUT_USB    &kp LEFT         &kp DOWN         &kp UP      &kp RIGHT   &kp HOME        &kp END
 &trans  &kp LG(N1)  &trans        &trans        &trans        &trans          &rgb_ug RGB_BRI  &rgb_ug RGB_BRD  &bl BL_INC  &bl BL_DEC  &rgb_ug RGB_ON  &rgb_ug RGB_OFF
                                   &trans        &trans        &kp SPACE       &kp RET          &trans           &kp RALT
             >;
