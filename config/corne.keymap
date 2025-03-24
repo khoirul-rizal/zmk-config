@@ -23,6 +23,13 @@
     // 21 backlight + 6 glowlight
 };
 
+&mmv {
+    x-input-code = <500>;
+    y-input-code = <10>;
+    time-to-max-speed-ms = <300>;
+    acceleration-exponent = <1>;
+}
+
 / {
     chosen { zmk,underglow = &led_strip; };
 };
