@@ -182,9 +182,9 @@
 
         tab {
             bindings = <
-&trans  &kp LG(NUMBER_1)  &kp LG(NUMBER_2)  &kp LG(NUMBER_3)      &kp LG(NUMBER_4)      &kp LG(N5)    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &kp LG(N6)        &kp LG(N7)        &kp LG(N8)            &kp LG(N9)            &trans        &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans            &trans            &kp LS(LG(NUMBER_4))  &kp LS(LG(NUMBER_5))  &trans        &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &kp LG(NUMBER_1)  &kp LG(NUMBER_2)  &kp LG(NUMBER_3)      &kp LG(NUMBER_4)      &kp LG(N5)    &kp F1  &kp F2  &kp F3  &trans   &trans   &trans
+&trans  &kp LG(N6)        &kp LG(N7)        &kp LG(N8)            &kp LG(N9)            &trans        &trans  &trans  &trans  &kp F10  &kp F11  &kp F12
+&trans  &trans            &trans            &kp LS(LG(NUMBER_4))  &kp LS(LG(NUMBER_5))  &trans        &trans  &trans  &trans  &trans   &trans   &trans
                                             &trans                &trans                &trans        &trans  &trans  &trans
             >;
         };
